@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lexical and Closure Example</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgba(12, 71, 71, 0.507);
+      }
+      .center {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        width: 100px;
+        margin-left: 20px;
+        padding: 8px;
+        font-size: 16px;
+        border: 2px solid black;
+        border-radius: 5px;
+      }
+      #grey {
+        background-color: grey;
+      }
+      #green {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <button id="grey">Grey</button> <button id="green">Green</button>
+    </div>
+  </body>
+
+  <script>
+    // document.getElementById("grey").onclick = function () {
+    //   document.body.style.backgroundColor = "grey";
+    // };
+
+    // document.getElementById("green").onclick = function () {
+    //   document.body.style.backgroundColor = "#008000";
+    // };
+
+    function clickHandler(color) {
+      return function () {
+        document.body.style.backgroundColor = `${color}`;
+      };
+    }
+
+    document.getElementById("grey").onclick = clickHandler("grey");
+    document.getElementById("green").onclick = clickHandler("#008000");
+  </script>
+</html>

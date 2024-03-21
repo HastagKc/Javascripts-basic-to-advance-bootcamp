@@ -48,10 +48,7 @@ const symbol2 = Symbol("description");
 
 // 1. Object:
 // Represents a collection of key - value pairs, where each key is a string(or symbol) and each value can be of any data type, including other objects.
-
-// ```javascript
-// let person = { name: "John", age: 30 };
-// ```
+let person = { name: "John", age: 30 };
 
 // 2. Array:
 // Represents a collection of elements stored at contiguous memory locations.Arrays can contain elements of different data types and are indexed starting from zero.

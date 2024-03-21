@@ -1,10 +1,11 @@
 // variable in js
 // In JavaScript, a variable is a symbolic name for a value. Variables are used to store and manipulate data during the execution of a program. They provide a way to label and reference data, making code more readable and flexible.
 
-// Variables in JavaScript can hold various types of data, including numbers, strings, objects, functions, arrays, and more. Unlike some other programming languages, JavaScript is dynamically typed, meaning you don't need to explicitly declare the type of a variable before assigning a value to it.
+// Variables in JavaScript can hold various types of data, including numbers, strings, objects, functions, arrays, and more. Unlike some other programming languages,
+// JavaScript is dynamically typed, meaning you don't need to explicitly declare the type of a variable before assigning a value to it.
 
-var message = "Hello, world!";
-// var is a keyword used to declare a variable.
+let message = "Hello, world!";
+// let is a keyword used to declare a variable.
 // message is the name of the variable.
 // "Hello, world!" is the value assigned to the variable.
 
@@ -32,6 +33,7 @@ var message = "Hello, world!";
 // var: Variables declared with var can be both redeclared and reassigned within the same scope.
 // let: Variables declared with let cannot be redeclared within the same scope, but they can be reassigned.
 // const: Variables declared with const cannot be redeclared or reassigned after their initialization. They remain constant throughout their lifetime.
+
 // Initialization Requirement:
 
 // var: Variables declared with var are automatically initialized with undefined.
