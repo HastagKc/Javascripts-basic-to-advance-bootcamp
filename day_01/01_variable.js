@@ -18,6 +18,5 @@ name = 'Ram'
 message = "Namaste World"
 // bio = "Js developer" // this variable can't reasign because it is contant variable 
 
-
 console.table([name,message, bio])
 
