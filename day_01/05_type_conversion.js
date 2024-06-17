@@ -1,6 +1,4 @@
 // conversion in datatypes 
-
-
 // number to string 
 let num = 90
 let numberInString = String(num)
