@@ -12,7 +12,8 @@ let imagesArr = [
 ];
 
 let index = 0;
-image.src = imagesArr[index]; // Initial image display
+// Initial image display
+image.src = imagesArr[index];
 
 pre_btn.addEventListener("click", function () {
   if (index <= 0) {

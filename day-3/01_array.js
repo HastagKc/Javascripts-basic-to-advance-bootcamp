@@ -1,5 +1,7 @@
-// In JavaScript, an array is a data structure that allows you to store multiple values in a single variable.
-// Arrays can contain various types of data, including numbers, strings, objects, and even other arrays.
+// In JavaScript, an array is a data structure that allows you to store multiple
+// values in a single variable.
+// Arrays can contain various types of data, including numbers, strings,
+// objects, and even other arrays.
 
 // creating empty array
 let emptyArr = [];
@@ -34,10 +36,12 @@ let arr3 = ["ram", "shyam", "hari", "binod"];
 arr3.pop();
 console.log(arr3);
 
-// The shift() and unshift() methods in JavaScript are used to add and remove elements from the beginning of an array, respectively.
+// The shift() and unshift() methods in JavaScript are used to add and
+// remove elements from the beginning of an array, respectively.
 
 // shift()
-// The shift() method removes the first element from an array and returns that removed element. It also updates the indices of other elements in the array.
+// The shift() method removes the first element from an array
+//and returns that removed element. It also updates the indices of other elements in the array.
 
 let arr4 = [50, 45, 75, 85];
 let newVar = arr4.shift();
@@ -45,7 +49,8 @@ console.log("shift", newVar);
 console.log(arr4);
 
 // unshift()
-// The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+// The unshift() method adds one or more elements to the beginning of
+// an array and returns the new length of the array.
 let fruits = ["banana", "orange"];
 
 let newLength = fruits.unshift("apple");

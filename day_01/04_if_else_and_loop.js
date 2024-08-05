@@ -32,7 +32,9 @@ while (i < 5) {
 }
 
 //  3. Do-While Loop:
-// The `do-while` loop is similar to the `while` loop, but it guarantees that the block of code is executed at least once before checking the condition.
+// The `do-while` loop is similar to the `while` loop,
+// but it guarantees that the block of code is executed at least
+// once before checking the condition.
 
 let j = 0;
 do {
@@ -52,6 +54,8 @@ const person = {
 for (let key in person) {
   console.log(key + ": " + person[key]);
 }
+
+
 
 //  5. For-Of Loop:
 // The `for-of` loop iterates over the iterable objects like arrays, strings, etc.

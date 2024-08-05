@@ -44,3 +44,9 @@ console.log("\nConditional (Ternary) Operator:");
 let age = 18;
 let message = age >= 18 ? "You are an adult" : "You are a minor";
 console.log(message); // Output: "You are an adult"
+
+let bornYear = 2001;
+let msg =
+  bornYear >= 2000 ? "You are born after 2000" : "You are born before 2000";
+
+console.log(msg);
